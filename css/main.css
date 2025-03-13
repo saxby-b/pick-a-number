@@ -1,0 +1,22 @@
+body {
+    box-sizing: border-box;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.random-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: #e1b5ff;
+    padding: 40px;
+    border: 20px solid white;
+    font-size: 40px;
+    width: 20%;
+}
