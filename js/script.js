@@ -2,15 +2,22 @@ const randomNumber = document.querySelectorAll(" .random-number");
 let numberArray = [];
 let random = document.querySelector(".random");
 
-const numberGenerator = function () {
-  let num = Math.floor(Math.random() * 500);
-  let li = document.createElement("li");
-  li.innerText = num;
-  random.append(li);
-  numberArray.push(num);
-  console.log(numberArray);
+const numberGenerator = async function () {
+  const res = await fetch("https://cataas.com/cat");
+  const cats = res.json();
+
 }
-numberGenerator();
+
+const randomCat = function(cats) {
+  const randmIndex = Math.floor(Math.random() * cats.length);
+  const catImage = cats[randmIndex];
+}
+
+const displayCat = function(catImage) {
+  
+}
+
+
 
 
 
