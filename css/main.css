@@ -1,5 +1,6 @@
 body {
     box-sizing: border-box;
+    background-color: #313D5A;
 }
 
 .content-wrapper {
@@ -7,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
+    background-color: #EAEAEA;
 }
 
 .cat-section{
@@ -14,18 +16,6 @@ body {
     text-align: center;
 }
 
-li.random-number {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    background-color: #e1b5ff;
-    padding: 40px;
-    border: 20px solid white;
-    font-size: 40px;
-    width: 20%;
-}
-
-li {
-    list-style-type: none;
+button {
+    background-color: #CBC5EA;
 }
