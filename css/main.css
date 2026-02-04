@@ -6,7 +6,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
+}
+
+.cat-section{
+    width: 100%;
+    text-align: center;
 }
 
 li.random-number {
