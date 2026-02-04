@@ -9,7 +9,7 @@ body {
     flex-flow: row wrap;
 }
 
-.random-number {
+li.random-number {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,4 +19,8 @@ body {
     border: 20px solid white;
     font-size: 40px;
     width: 20%;
+}
+
+li {
+    list-style-type: none;
 }
