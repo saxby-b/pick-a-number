@@ -16,6 +16,12 @@ body {
     text-align: center;
 }
 
+img {
+    width: 100%;
+    object-fit: contain;
+    height: 450px;
+}
+
 button {
     background-color: #CBC5EA;
 }
