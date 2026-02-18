@@ -1,27 +1,27 @@
 body {
-    box-sizing: border-box;
-    background-color: #313D5A;
+  box-sizing: border-box;
+  background-color: #313d5a;
 }
 
 .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    background-color: #EAEAEA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: #eaeaea;
 }
 
-.cat-section{
-    width: 100%;
-    text-align: center;
+.cat-section {
+  width: 100%;
+  text-align: center;
 }
 
 img {
-    width: 100%;
-    object-fit: contain;
-    height: 450px;
+  width: 100%;
+  object-fit: contain;
+  height: 450px;
 }
 
 button {
-    background-color: #CBC5EA;
+  background-color: #cbc5ea;
 }
